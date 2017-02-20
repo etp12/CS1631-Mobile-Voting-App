@@ -1,0 +1,10 @@
+<Msg>
+	<Head>
+		<MsgID>702</MsgID>
+		<Description>test</Description>
+	</Head>
+		<Item>
+			<Key>test</Key>
+			<Value>test</Value>
+		</Item>
+</Msg>

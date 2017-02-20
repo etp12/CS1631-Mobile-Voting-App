@@ -10,20 +10,20 @@ public class InputProcessor {
 			Socket sock = new Socket("127.0.0.1", 53217);
 
 			KeyValueList kvl = new KeyValueList();
-			kvl.putPair("Ethan Pavolik", "123");
-			kvl.putPair("Jordan Britton", "124");
+			kvl.putPair("MsgID", "22");
+			kvl.putPair("Name", "InputProcessor");
 
 			MsgEncoder encoder = new MsgEncoder(sock.getOutputStream());
 			encoder.sendMsg(kvl);
 
-			MsgDecoder decoder = new MsgDecoder(sock.getInputStream());
-			KeyValueList reply = decoder.getMsg();
-			if (reply != null) {
-				System.out.println(reply.getValue("MsgID"));
-			}
+			kvl = new KeyValueList();
+			kvl.putPair("MsgID", "702");
+			kvl.putPair("test", "test");
+			encoder.sendMsg(kvl);
+			sock.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
 
+	}
 }
