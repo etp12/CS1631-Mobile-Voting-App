@@ -162,7 +162,7 @@ Set up a socket server waiting for the remote to connect.
 public class InterfaceServer
 {
 
-   public static final int port=53217;
+   public static final int port=7999;
 
    public static void main(String[] args) throws Exception
   {
@@ -184,15 +184,22 @@ public class InterfaceServer
       do
       {
 				kvInput=mDecoder.getMsg();
-        if (kvInput!=null) {
+
+				if (kvInput!=null) {
         System.out.println("Incomming Message:\n");
         System.out.println(kvInput);
-				if (kvInput.getValue("MsgID") != null && kvInput.getValue("MsgID").equals("702")) {
+
+				if (kvInput.getValue("MessageType") != null && kvInput.getValue("MessageType").equals("Reading")) {
 					System.out.println("Processing with Component");
 	        KeyValueList kvResult=compMy.processMsg(kvInput);
 	        System.out.println("Outgoing Message:\n");
 	        System.out.println(kvResult);
-	        mEncoder.sendMsg(kvResult,client.getOutputStream());
+	        mEncoder.sendMsg(kvResult, client.getOutputStream());
+		//			KeyValueList tests = new KeyValueList();
+		//			tests.addPair("Test", "test");
+		//			tests.addPair("Scope", "SIS");
+		//			System.out.println(tests);
+					//mEncoder.sendMsg(, client.getOutputStream());
 				}
        }
       }

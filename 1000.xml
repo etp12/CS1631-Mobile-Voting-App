@@ -1,0 +1,30 @@
+<Msg>
+	<Item>
+		<Key>Scope</Key>
+		<Value>SIS.Scope1</Value>
+	</Item>
+	<Item>
+		<Key>MessageType</Key>
+		<Value>Reading</Value>
+	</Item>
+	<Item>
+		<Key>Sender</Key>
+		<Value>InputProcessor</Value>
+	</Item>
+	<Item>
+		<Key>FirstName</Key>
+		<Value>Ethan</Value>
+	</Item>
+	<Item>
+		<Key>LastName</Key>
+		<Value>Pavolik</Value>
+	</Item>
+	<Item>
+		<Key>Passwd</Key>
+		<Value>etp12</Value>
+	</Item>
+	<Item>
+		<Key>Date</Key>
+		<Value>1435437191150</Value>
+	</Item>
+</Msg>

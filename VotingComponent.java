@@ -37,9 +37,9 @@ else {
 /* function in interface ComponentBase */
 
 public KeyValueList processMsg(KeyValueList kvList){
-    int MsgID=Integer.parseInt(kvList.getValue("MsgID"));
-    if (MsgID!=702) return null;
-    doAuthentication(kvList.getValue("FirstName"),kvList.getValue("LastName"),kvList.getValue("passwd"));
+  //  int MsgID=Integer.parseInt(kvList.getValue("MsgID"));
+  //  if (MsgID!=702) return null;
+    doAuthentication(kvList.getValue("FirstName"),kvList.getValue("LastName"),kvList.getValue("Passwd"));
     KeyValueList kvResult = new KeyValueList();
     kvResult.addPair("MsgID","1");
     kvResult.addPair("Description","Authentication Result");
