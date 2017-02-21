@@ -3,8 +3,18 @@
 		<MsgID>702</MsgID>
 		<Description>test</Description>
 	</Head>
+	<Body>
+	<Item>
+		<Key>passwd</Key>
+		<Value>etp12</Value>
+	</Item>
 		<Item>
-			<Key>test</Key>
-			<Value>test</Value>
+			<Key>FirstName</Key>
+			<Value>Ethan</Value>
 		</Item>
+		<Item>
+			<Key>LastName</Key>
+			<Value>Pavolik</Value>
+		</Item>
+	</Body>
 </Msg>
