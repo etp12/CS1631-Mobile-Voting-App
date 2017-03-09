@@ -1,1 +1,0 @@
-# CS1631-Mobile-Voting-App
