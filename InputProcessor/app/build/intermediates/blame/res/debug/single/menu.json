@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\global.xml",
+        "source": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bletest.xml",
+        "source": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\src\\main\\res\\menu\\bletest.xml"
+    }
+]

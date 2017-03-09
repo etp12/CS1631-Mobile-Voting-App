@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "E:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    }
+]

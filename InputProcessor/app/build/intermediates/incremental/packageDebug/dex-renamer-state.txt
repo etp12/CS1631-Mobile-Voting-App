@@ -1,0 +1,7 @@
+#Thu Mar 02 19:02:14 EST 2017
+base.0=E\:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d92a0613dbc62b10fa5facb0f65c65cdfe293f74
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ef575473ef9da113b54140e14556496bba4730d8\\classes.dex
+base.1=E\:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ef575473ef9da113b54140e14556496bba4730d8
+file.0=E\:\\cs1631\\SISv5android\\SISv5_Android\\InputProcessor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d92a0613dbc62b10fa5facb0f65c65cdfe293f74\\classes.dex

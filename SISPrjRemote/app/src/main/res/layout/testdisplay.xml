@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="702"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/A701"
+        android:id="@+id/A702"
+        android:layout_marginLeft="8dp" />
+
+    <Button
+        android:text="701A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A701"
+        android:layout_marginLeft="8dp" />
+    <Button
+        android:text="701B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/A701"
+        android:id="@+id/B701"
+        android:layout_marginLeft="8dp" />
+    <Button
+        android:text="701C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B701"
+        android:id="@+id/C701"
+        android:layout_marginLeft="8dp" />
+    <Button
+        android:text="703"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/C701"
+        android:id="@+id/A703"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/A703"
+        android:id="@+id/responseList"
+        android:text="Responses:\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/A703"
+        android:layout_toRightOf="@id/responseList"
+        android:id="@+id/sentList"
+        android:text="Sent: \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        />
+</RelativeLayout>
