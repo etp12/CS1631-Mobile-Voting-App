@@ -13,13 +13,18 @@ public class TallyTable {
         table = new HashMap<>();
     }
 
-    public boolean addVote(String voterID, int posterID) {
+    //-1 poster does not exist, 0 duplicate vote, 1 valid
+    public int addVote(String voterID, int posterID) {
         if (posterSet != null) {
             if (!posterSet.contains(posterID+""))
-                return false;
+                return -1;
         }
+
+        if (table.containsKey(voterID))
+                return 0;
+
         table.put(voterID, posterID);
-        return true;
+        return 1;
     }
 
     public void setCandidates(String[] posters) {
@@ -47,7 +52,8 @@ public class TallyTable {
                 results.put(posterID, 1);
             }
         }
-        res = new TallyResult(results.size());
+       // res = new TallyResult(results.size());
+        res = new TallyResult(posterSet.size());
         for (Map.Entry<Integer, Integer> e : results.entrySet()) {
             res.addResult(e.getKey(), e.getValue());
         }

@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_838f3c58f73b578f23c195b1e267f6a98a9dd5ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -30,30 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_cdb13d367d561a2c694ab8ce11a9445584343183\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_e41f4505acf4ead64e7e8adaa46db903f7af33f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ca6f26ceb5400facbf796e56e7ed9de9b6d62d46\classes.dex" />
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_c7f34f78c3d26d5494c66b07dc551059a1b9dce4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,21 +57,129 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_45f260756598b0dd1b499ebbffc6e0d49ec20bdf\classes.dex" />
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_838a3cb05d7fa093ffb8aa90fa55e15cf4d6931e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c69a563460d05f508e6fb5edca6d298e9bda2d71\classes.dex" />
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9c4bd0c0e923fd6e126beeea00245f03b03b6606\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_a1c8c9ffb6c0fae221822efebdee90f06e3fdeda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_a8d04a8a76cea930464f6acc332192af6a9a55a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan Pavolik\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_b3e12f5d346a2554b54ef347804111a4d2d3c360\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7eb141ebcd6338b89d0f3209d5bbe5e547e5ee6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3537d16350b8b98c40add4ea06740b858fe47d71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_edfae666c09b503334b2bd01ffa9426f58f02e0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_838f3c58f73b578f23c195b1e267f6a98a9dd5ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_865ab38a936a7836a7182a29890f3922310a2a11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_cdb13d367d561a2c694ab8ce11a9445584343183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_e41f4505acf4ead64e7e8adaa46db903f7af33f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ca6f26ceb5400facbf796e56e7ed9de9b6d62d46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_19a986fa95bd6d0b514f5f41a9ceff20e2c7d0cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,6 +201,123 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_a10f8cc084cecfb37e673750cae3011ea470ed0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_b1102f369a3ca738ddf06273ed08f0bc96ef43d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbc71f0657e71433d349cd1a1045ad0e44c917ba">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ef575473ef9da113b54140e14556496bba4730d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_6f88583d8a23e1b2006d17384adf2d56f6f7db0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_febc75aa80af964559a209919172cdfbd702c0d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_f20ef2622935ff2738fda2f9ace60c1a64b877e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_72635a1496915a3e53955672a3663d259d0164de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bfd6d4ea62398643300647c50d204db50702b923">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6050e3625df5189d2ab2a57c8776e572403be4fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_43e4deed3a2c0238bde09c9ddaae674e1af3d928\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_56abf67f1dc423186cc5334a9c92b73ccedaea65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_86f82ecc586bd6981ef12aa1c1009e7d5b843980\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_45f260756598b0dd1b499ebbffc6e0d49ec20bdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c69a563460d05f508e6fb5edca6d298e9bda2d71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -129,12 +327,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9c4bd0c0e923fd6e126beeea00245f03b03b6606\classes.dex" />
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_cccbd570817688efecc4e30935eeeacc30371988\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_5e55feefece7a5336d27767da7d6a28df437507b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -144,6 +351,33 @@
         revision="25.0.0"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
         <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_1a2404d4b99fc3f719d073993c9d2d0c40a97f51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_36c1066de13d64dbd051e03de4845c71f01a6007\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_46253d2b36c7eff5371cf0343591ccfae4b51ac2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_8d683f2587412e9e5a243d45d6552d3415014c30\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,48 +399,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan Pavolik\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jar="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_b3e12f5d346a2554b54ef347804111a4d2d3c360\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbc71f0657e71433d349cd1a1045ad0e44c917ba">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ef575473ef9da113b54140e14556496bba4730d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3537d16350b8b98c40add4ea06740b858fe47d71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_f20ef2622935ff2738fda2f9ace60c1a64b877e0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_72635a1496915a3e53955672a3663d259d0164de\classes.dex" />
+        sha1="19f03ca9b9170e873c36b92a947d0b5d10cdc91a">
+        <dex dex="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6cf74cb2a04230eb16d148ead27554e59cf2f5ad\classes.dex" />
     </item>
 
 </items>

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
+    api-level="24"
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="2013949336694974"
-    token="-482387337337672464"
+    timestamp="523673245915688"
+    token="-5565559571707560996"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="627" />
+        duration="533" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="135" />
+        duration="59" />
     <task
         name="verifier"
-        duration="25" />
+        duration="7" />
 
     <artifact
-        location="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\outputs\apk\app-debug.apk"
+        location="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="2013949336694974"
+        timestamp="523673245915688"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\cs1631\SISv5android\SISv5_Android\InputProcessor\app\build\outputs\apk\app-debug.apk"
+            location="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

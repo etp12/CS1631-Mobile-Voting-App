@@ -31,7 +31,10 @@ public class TallyResult {
     private VoteEntry[] results;
     public TallyResult(int capacity) {
         num = 0;
-        results = new VoteEntry[capacity];
+        if (capacity == 0)
+            results = new VoteEntry[5];
+        else
+            results = new VoteEntry[capacity];
     }
     public TallyResult() {
         num = 0;
@@ -46,9 +49,11 @@ public class TallyResult {
 
     public boolean contains(String s) {
         for(VoteEntry v : results) {
-            if (s.equals(v.posterID+"")) {
-                Log.d("TallyResult", "true in contains(): " + s + " " + v.posterID);
-                return true;
+            if (v != null) {
+                if (s.equals(v.posterID + "")) {
+                    Log.d("TallyResult", "true in contains(): " + s + " " + v.posterID);
+                    return true;
+                }
             }
         }
         return false;

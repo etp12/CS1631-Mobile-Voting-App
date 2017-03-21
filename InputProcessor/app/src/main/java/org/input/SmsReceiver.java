@@ -37,6 +37,12 @@ public class SmsReceiver extends BroadcastReceiver {
                 String message = sb.toString();
                 Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
 
+                try {
+                    //make sure we can parse a poster ID before sending a 701
+                    Integer.parseInt(message);
+                } catch(Exception e) {
+                    return;
+                }
                 KeyValueList temp = new KeyValueList();
                 temp.putPair("MsgID", "701");
                 temp.putPair("VoterID", sender);

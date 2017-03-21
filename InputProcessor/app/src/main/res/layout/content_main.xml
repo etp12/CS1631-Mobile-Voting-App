@@ -108,12 +108,39 @@
         android:text="@string/votingEnabledMsg"
         android:layout_marginLeft="10dp"
         android:textStyle="normal|bold" />
-
+    <TextView
+        android:id="@+id/posterListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connectToServer"
+        android:layout_toLeftOf="@+id/connectToServer"
+        android:text="@string/posterListMsg"
+        android:layout_marginLeft="10dp"
+        android:textStyle="normal|bold" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/posterList"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/connectToServer"
+        android:layout_toRightOf="@id/posterListText"
+        android:text="@string/server_ip_value" />
+    <Button
+        android:text="Set Posters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/posterList"
+        android:layout_toRightOf="@+id/connectToServer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/setPosterList" />
     <TextView
         android:id="@+id/messageReceivedListText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/connectToServer"
+        android:layout_below="@+id/setPosterList"
         android:text="Messages Received"
         android:textStyle="normal|bold"
         android:layout_centerInParent="true"

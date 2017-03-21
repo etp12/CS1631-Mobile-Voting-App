@@ -33,9 +33,9 @@ public class MainActivity extends Activity {
     public static final String TAG = "Input Processor";
 
     private static Button connectToServerButton,registerToServerButton
-            ,toggleVotingButton, viewResultsButton;
+            ,toggleVotingButton, viewResultsButton, setPosterListButton;
 
-    private EditText serverIp,serverPort;
+    private EditText serverIp,serverPort, posterList;
 
     static ComponentSocket client;
 
@@ -175,29 +175,37 @@ public class MainActivity extends Activity {
                 send.putPair("Sender", "InputProcessor");
                 send.putPair("MsgID", "711");
                 send.putPair("Status", "Invalid");
-                client.setMessage(send);
+          //      client.setMessage(send);
                 smsManager.sendTextMessage(sender, null, "Vote Invalid!", null, null);
             }
 
             String voterID = recv.getValue("VoterID");
-            int posterID = Integer.parseInt(recv.getValue("PosterID"));
 
-            boolean accepted = voteTable.addVote(voterID, posterID);
+            int posterID;
+            try {
+                posterID = Integer.parseInt(recv.getValue("PosterID"));
+            } catch(Exception e) {
+                return;
+            }
+            int accepted = voteTable.addVote(voterID, posterID);
             KeyValueList send = new KeyValueList();
 
             send.putPair("Scope", SCOPE);
             send.putPair("MessageType", "Reading");
             send.putPair("Sender", "InputProcessor");
             send.putPair("MsgID", "711");
-            if (accepted) {
+            if (accepted == 1) {
                 send.putPair("Status", "Valid");
                 smsManager.sendTextMessage(sender, null, "Vote Accepted!", null, null);
-            } else {
+            } else if (accepted == -1){
                 send.putPair("Status", "Invalid");
                 smsManager.sendTextMessage(sender, null, "Vote Invalid!", null, null);
+            } else if (accepted == 0) {
+                send.putPair("Status", "Duplicate");
+                smsManager.sendTextMessage(sender, null, "Duplicate Vote!", null, null);
             }
             Log.e(TAG, "Sending 711");
-            client.setMessage(send);
+//            client.setMessage(send);
 
         }
     }
@@ -223,20 +231,24 @@ public class MainActivity extends Activity {
             String voterID = recv.getValue("VoterID");
             int posterID = Integer.parseInt(recv.getValue("PosterID"));
 
-            boolean accepted = voteTable.addVote(voterID, posterID);
+            int accepted = voteTable.addVote(voterID, posterID);
             KeyValueList send = new KeyValueList();
 
             send.putPair("Scope", SCOPE);
             send.putPair("MessageType", "Reading");
             send.putPair("Sender", "InputProcessor");
             send.putPair("MsgID", "711");
-            if (accepted) {
+            if (accepted == 1) {
                 send.putPair("Status", "Valid");
-                smsManager.sendTextMessage("+17247718112", null, "Vote Accepted!", null, null);
+            //    smsManager.sendTextMessage("+17247718112", null, "Vote Accepted!", null, null);
             }
-            else {
+            else if (accepted == -1){
                 send.putPair("Status", "Invalid");
-                smsManager.sendTextMessage("+17247718112", null, "Vote Invalid!", null, null);
+             //   smsManager.sendTextMessage("+17247718112", null, "Vote Invalid!", null, null);
+            }
+            else if (accepted == 0) {
+                send.putPair("Status", "Duplicate");
+            //    smsManager.sendTextMessage("+17247718112", null, "Duplicate Vote!", null, null);
             }
             Log.e(TAG, "Sending 711");
             client.setMessage(send);
@@ -270,6 +282,8 @@ public class MainActivity extends Activity {
         registerToServerButton = (Button) findViewById(R.id.registerToServerButton);
         toggleVotingButton = (Button) findViewById(R.id.toggleVotingButton);
         viewResultsButton = (Button) findViewById(R.id.viewResultsButton);
+        setPosterListButton = (Button) findViewById(R.id.setPosterList);
+        posterList = (EditText) findViewById(R.id.posterList);
         serverIp = (EditText) findViewById(R.id.serverIp);
         serverPort = (EditText) findViewById(R.id.serverPort);
         votingEnabledText = (TextView) findViewById(R.id.votingEnabledText);
@@ -341,6 +355,16 @@ public class MainActivity extends Activity {
                     results = voteTable.getResults();
                     if (results != null)
                         showResults();
+                }
+            }
+        });
+        setPosterListButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (posterList != null) {
+                    String[] postersList = posterList.getText().toString().split(";");
+                    voteTable = new TallyTable();
+                    voteTable.setCandidates(postersList);
                 }
             }
         });
