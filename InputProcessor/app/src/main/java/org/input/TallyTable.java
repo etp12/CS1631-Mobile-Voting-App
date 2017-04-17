@@ -5,6 +5,7 @@ package org.input;
  */
 import java.util.*;
 
+//keeps track of votes
 public class TallyTable {
     private Map<String, Integer> table;
     private Set<String> posterSet;

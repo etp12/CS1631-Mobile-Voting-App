@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import org.tdr.R;
 
+//Displays the results of the voting
 public class ShowResults extends Activity {
     private TextView resultsText;
     private final String PRERESULTS = "PosterID | # Votes\n";

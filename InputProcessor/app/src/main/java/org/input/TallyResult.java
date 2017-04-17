@@ -25,6 +25,7 @@ class VoteEntry implements Comparable<VoteEntry> {
     }
 }
 
+//used for parsing voting results
 public class TallyResult {
 
     int num;

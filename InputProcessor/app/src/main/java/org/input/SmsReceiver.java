@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import java.security.Key;
 
+//handle sms messages
 public class SmsReceiver extends BroadcastReceiver {
 
 

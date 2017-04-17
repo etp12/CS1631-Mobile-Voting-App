@@ -27,10 +27,11 @@ import java.util.TimerTask;
 /*
     A demo Activity, which shows how to build a connection with SIS server, register itself to the server,
     and send a message to the server as well.
+    Edited to be our VotingComponent
  */
 public class MainActivity extends Activity {
 
-    public static final String TAG = "Input Processor";
+    public static final String TAG = "Voting Component";
 
     private static Button connectToServerButton,registerToServerButton
             ,toggleVotingButton, viewResultsButton, setPosterListButton;
@@ -41,7 +42,7 @@ public class MainActivity extends Activity {
 
     private static TextView messageReceivedListText, votingEnabledText;
 
-    private static final String SENDER = "InputProcessor";
+    private static final String SENDER = "VotingComponent";
     private static final String REGISTERED = "Registered";
     private static final String DISCOONECTED =  "Disconnect";
     private static final String SCOPE = "SIS.Scope1";
@@ -102,6 +103,8 @@ public class MainActivity extends Activity {
                 messageReceivedListText.scrollTo(0, 0);
         }
     }
+
+    //Called when receiving a direct SIS message
     protected static void parseKVL(KeyValueList recv) {
         if (recv.getValue("MsgID") != null) {
             if (recv.getValue("MsgID").equals("701")) {
@@ -160,6 +163,7 @@ public class MainActivity extends Activity {
         }
     }
 
+    //used when receving a text message
     public static void parseVote(KeyValueList recv, String sender) {
         scrollText(recv);
         if (votingEnabled) {
@@ -209,6 +213,8 @@ public class MainActivity extends Activity {
 
         }
     }
+
+    //called when we receive a 701 voting message
     public static void parseVote(KeyValueList recv) {
         scrollText(recv);
         if (votingEnabled) {
@@ -240,15 +246,12 @@ public class MainActivity extends Activity {
             send.putPair("MsgID", "711");
             if (accepted == 1) {
                 send.putPair("Status", "Valid");
-            //    smsManager.sendTextMessage("+17247718112", null, "Vote Accepted!", null, null);
             }
             else if (accepted == -1){
                 send.putPair("Status", "Invalid");
-             //   smsManager.sendTextMessage("+17247718112", null, "Vote Invalid!", null, null);
             }
             else if (accepted == 0) {
                 send.putPair("Status", "Duplicate");
-            //    smsManager.sendTextMessage("+17247718112", null, "Duplicate Vote!", null, null);
             }
             Log.e(TAG, "Sending 711");
             client.setMessage(send);
