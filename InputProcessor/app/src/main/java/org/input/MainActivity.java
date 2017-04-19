@@ -8,6 +8,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.StrictMode;
 import android.telephony.SmsManager;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -139,6 +140,8 @@ public class MainActivity extends Activity {
                     send.putPair("MessageType", "Reading");
                     send.putPair("MsgID", "712");
                     send.putPair("RankedReport", resultsString);
+                    if (TestingActivity.msgs != null)
+                        TestingActivity.msgs.add("712");
                     client.setMessage(send);
                 }
 
@@ -155,9 +158,11 @@ public class MainActivity extends Activity {
                 KeyValueList send = new KeyValueList();
                 send.putPair("Scope", SCOPE);
                 send.putPair("MessageType", "Reading");
-                send.putPair("Sender", "InputProcessor");
+                //send.putPair("Sender", "InputProcessor");
                 send.putPair("MsgID", "26");
                 send.putPair("Ack", "Ack");
+                if (TestingActivity.msgs != null)
+                    TestingActivity.msgs.add("Ack");
                 client.setMessage(send);
             }
         }
@@ -179,7 +184,7 @@ public class MainActivity extends Activity {
                 send.putPair("Sender", "InputProcessor");
                 send.putPair("MsgID", "711");
                 send.putPair("Status", "Invalid");
-          //      client.setMessage(send);
+
                 smsManager.sendTextMessage(sender, null, "Vote Invalid!", null, null);
             }
 
@@ -230,8 +235,10 @@ public class MainActivity extends Activity {
                 send.putPair("Sender", "InputProcessor");
                 send.putPair("MsgID", "711");
                 send.putPair("Status", "Invalid");
+                if (TestingActivity.msgs != null)
+                    TestingActivity.msgs.add("Invalid711");
                 client.setMessage(send);
-                smsManager.sendTextMessage("+17247718112", null, "Vote Invalid!", null, null);
+               // smsManager.sendTextMessage("+17247718112", null, "Vote Invalid!", null, null);
             }
 
             String voterID = recv.getValue("VoterID");
@@ -246,17 +253,29 @@ public class MainActivity extends Activity {
             send.putPair("MsgID", "711");
             if (accepted == 1) {
                 send.putPair("Status", "Valid");
+                if (TestingActivity.msgs != null)
+                    TestingActivity.msgs.add("711");
             }
             else if (accepted == -1){
+                if (TestingActivity.msgs != null)
+                    TestingActivity.msgs.add("Invalid711");
                 send.putPair("Status", "Invalid");
             }
             else if (accepted == 0) {
+                if (TestingActivity.msgs != null)
+                    TestingActivity.msgs.add("Invalid711");
                 send.putPair("Status", "Duplicate");
             }
             Log.e(TAG, "Sending 711");
             client.setMessage(send);
 
         }
+
+    }
+    public static void sendMessage(KeyValueList kvl) {
+        if (client.isSocketAlive())
+            parseKVL(kvl);
+         client.setMessage(kvl);
 
     }
 
@@ -273,6 +292,12 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main);
+
+
+        if (android.os.Build.VERSION.SDK_INT > 9) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
 
         data = this.getIntent().getStringExtra("data");
         if(data!=null){
