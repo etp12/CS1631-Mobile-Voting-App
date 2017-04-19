@@ -136,6 +136,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:id="@+id/setPosterList" />
+    <Button
+        android:text="Run Tests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/messageReceivedListText"
+        android:layout_toLeftOf="@+id/connectToServer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/runTestsBtn" />
     <TextView
         android:id="@+id/messageReceivedListText"
         android:layout_width="match_parent"

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_run_tests">
+    <LinearLayout
+        android:id="@+id/xmlButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn701"
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        android:text="701" />
+    <Button
+        android:id="@+id/btn702"
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        android:text="702" />
+    <Button
+        android:id="@+id/btn703"
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_button"
+        android:text="703" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/runAllTests"
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xmlButtonLayout"
+        android:background="@drawable/red_button"
+        android:text="Run Tests" />
+    <TextView
+        android:id="@+id/testsConsole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/runAllTests"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

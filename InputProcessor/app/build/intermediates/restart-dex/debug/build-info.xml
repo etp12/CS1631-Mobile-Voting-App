@@ -5,22 +5,22 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="523673245915688"
+    timestamp="140091441481413"
     token="-5565559571707560996"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="533" />
+        duration="241" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="59" />
+        duration="44" />
     <task
         name="verifier"
-        duration="7" />
+        duration="2" />
 
     <artifact
         location="E:\cs1631\CS1631-Mobile-Voting-App\InputProcessor\app\build\outputs\apk\app-debug.apk"

@@ -54,8 +54,14 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
+            android:name="org.input.TestingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name="org.input.ShowResults"
-            android:label="@string/title_activity_show_results" />
+            android:label="@string/title_activity_show_results" >
+        </activity>
     </application>
 
 </manifest>

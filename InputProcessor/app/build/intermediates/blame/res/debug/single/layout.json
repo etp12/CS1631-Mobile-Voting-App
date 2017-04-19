@@ -204,6 +204,10 @@
         "source": "E:\\cs1631\\CS1631-Mobile-Voting-App\\InputProcessor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "E:\\cs1631\\CS1631-Mobile-Voting-App\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_run_tests.xml",
+        "source": "E:\\cs1631\\CS1631-Mobile-Voting-App\\InputProcessor\\app\\src\\main\\res\\layout\\activity_run_tests.xml"
+    },
+    {
         "merged": "E:\\cs1631\\CS1631-Mobile-Voting-App\\InputProcessor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "E:\\cs1631\\CS1631-Mobile-Voting-App\\InputProcessor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_navigation_item_subheader.xml"
     },

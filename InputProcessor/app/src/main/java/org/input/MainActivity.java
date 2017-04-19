@@ -34,11 +34,11 @@ public class MainActivity extends Activity {
     public static final String TAG = "Voting Component";
 
     private static Button connectToServerButton,registerToServerButton
-            ,toggleVotingButton, viewResultsButton, setPosterListButton;
+            ,toggleVotingButton, viewResultsButton, setPosterListButton, runTestsButton;
 
     private EditText serverIp,serverPort, posterList;
 
-    static ComponentSocket client;
+   public static ComponentSocket client;
 
     private static TextView messageReceivedListText, votingEnabledText;
 
@@ -264,6 +264,11 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, ShowResults.class);
         startActivity(intent);
     }
+
+    public void runTests() {
+        Intent intent = new Intent(this, TestingActivity.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -282,6 +287,7 @@ public class MainActivity extends Activity {
         votingEnabled = true;
 
         connectToServerButton = (Button) findViewById(R.id.connectToServer);
+        runTestsButton = (Button) findViewById(R.id.runTestsBtn);
         registerToServerButton = (Button) findViewById(R.id.registerToServerButton);
         toggleVotingButton = (Button) findViewById(R.id.toggleVotingButton);
         viewResultsButton = (Button) findViewById(R.id.viewResultsButton);
@@ -359,6 +365,12 @@ public class MainActivity extends Activity {
                     if (results != null)
                         showResults();
                 }
+            }
+        });
+        runTestsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            runTests();
             }
         });
         setPosterListButton.setOnClickListener(new View.OnClickListener() {
